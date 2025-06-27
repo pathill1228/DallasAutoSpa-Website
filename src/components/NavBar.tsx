@@ -22,7 +22,7 @@ function NavBar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link" href={<About />}>
+              <a className="nav-link" href="../pages/about">
                 About
               </a>
             </li>

@@ -6,7 +6,7 @@ function NavBar() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand">
-          <img src="/DASLogo.png" alt="Dallas Auto Spa Logo" height="60" />
+          <img src="/DASLogo.png" alt="Dallas Auto Spa Logo" height="75" />
         </Link>
         <button
           className="navbar-toggler"

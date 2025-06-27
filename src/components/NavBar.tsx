@@ -22,14 +22,20 @@ function NavBar() {
 
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
-              <Link to="/About">About</Link>
+            <li>
+              <Link to="/About">
+                <a className="nav-link">About</a>
+              </Link>
             </li>
             <li className="nav-item">
-              <Link to="/Services">Services</Link>
+              <Link to="/Services">
+                <a className="nav-link">Services</a>
+              </Link>
             </li>
             <li className="nav-item">
-              <Link to="/Contact">Contact</Link>
+              <Link to="/Contact">
+                <a className="nav-link">Contact</a>
+              </Link>
             </li>
           </ul>
         </div>

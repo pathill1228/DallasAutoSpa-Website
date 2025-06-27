@@ -24,17 +24,17 @@ function NavBar() {
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <Link to="/About" className="nav-link">
-                About
+                ABOUT
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/Services" className="nav-link">
-                Services
+                SERVICES
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/Contact" className="nav-link">
-                Contact
+                CONTACT
               </Link>
             </li>
           </ul>

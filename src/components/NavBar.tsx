@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.css";
+import Link from "react-router-dom";
 
 function NavBar() {
   return (
@@ -22,19 +23,13 @@ function NavBar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link" href="/About">
-                About
-              </a>
+              <Link to="/About">About</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Services">
-                Services
-              </a>
+              <Link to="/Services">Services</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Contact">
-                Contact
-              </a>
+              <Link to="/Contact">Contact</Link>
             </li>
           </ul>
         </div>

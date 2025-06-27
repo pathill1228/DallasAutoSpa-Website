@@ -7,7 +7,6 @@ function NavBar() {
       <div className="container-fluid">
         <Link to="/" className="navbar-brand">
           <img
-            type="image/svg+xml"
             href="../public/DASLogo.png"
             alt="Dallas Auto Spa Logo"
             height="40"

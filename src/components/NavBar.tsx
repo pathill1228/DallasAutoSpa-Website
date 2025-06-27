@@ -6,9 +6,9 @@ function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/">
+        <Link to="/" className="navbar-brand">
           Dallas Auto Spa
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -23,19 +23,19 @@ function NavBar() {
 
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
-            <li>
-              <Link to="/About">
-                <a className="nav-link">About</a>
+            <li className="nav-item">
+              <Link to="/About" className="nav-link">
+                About
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/Services">
-                <a className="nav-link">Services</a>
+              <Link to="/Services" className="nav-link">
+                Services
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/Contact">
-                <a className="nav-link">Contact</a>
+              <Link to="/Contact" className="nav-link">
+                Contact
               </Link>
             </li>
           </ul>

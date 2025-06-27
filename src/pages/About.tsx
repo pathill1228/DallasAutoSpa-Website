@@ -4,6 +4,7 @@ function About() {
   return (
     <div>
       <NavBar />
+      <a>About Page</a>
     </div>
   );
 }

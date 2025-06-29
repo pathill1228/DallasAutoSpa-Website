@@ -34,7 +34,7 @@ function SlideShow() {
             alt="CarInParkingGarage"
           />
           <div className="carousel-caption d-none d-md-block">
-            <h5>Vinyl Wraps</h5>
+            <h3>VINYL WRAPS</h3>
             <p>
               Full or partial color changes with Avery Denison and 3m Vinyl.
             </p>
@@ -47,7 +47,7 @@ function SlideShow() {
             alt="AstonMartin"
           />
           <div className="carousel-caption d-none d-md-block">
-            <h5>Ceramic Tints</h5>
+            <h3>CERAMIC TINTS</h3>
             <p>
               Heat-rejecting ceramic window tint for added style, privacy, and
               UV protection.
@@ -61,7 +61,7 @@ function SlideShow() {
             alt="Porshe"
           />
           <div className="carousel-caption d-none d-md-block">
-            <h5>Car Detailing</h5>
+            <h3>CAR DETAILING</h3>
             <p>
               Interior and exterior deep cleans using high-end products for a
               showroom-quality finish.

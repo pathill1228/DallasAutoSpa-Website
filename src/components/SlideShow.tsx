@@ -32,7 +32,7 @@ function SlideShow() {
             className="d-block w-100"
             alt="CarInParkingGarage"
           />
-          <div class="carousel-caption d-none d-md-block">
+          <div className="carousel-caption d-none d-md-block">
             <h5>Vinyl Wraps</h5>
             <p>
               Full or partial color changes with Avery Denison and 3m Vinyl.
@@ -45,7 +45,7 @@ function SlideShow() {
             className="d-block w-100"
             alt="AstonMartin"
           />
-          <div class="carousel-caption d-none d-md-block">
+          <div className="carousel-caption d-none d-md-block">
             <h5>Ceramic Tints</h5>
             <p>
               Heat-rejecting ceramic window tint for added style, privacy, and
@@ -59,7 +59,7 @@ function SlideShow() {
             className="d-block w-100"
             alt="Porshe"
           />
-          <div class="carousel-caption d-none d-md-block">
+          <div className="carousel-caption d-none d-md-block">
             <h5>Car Detailing</h5>
             <p>
               Interior and exterior deep cleans using high-end products for a

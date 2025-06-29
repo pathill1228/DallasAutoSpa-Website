@@ -30,7 +30,7 @@ function SlideShow() {
         <div className="carousel-item active">
           <img
             src="https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg"
-            className="d-block w-100"
+            className="d-block w-100 carousel-img"
             alt="CarInParkingGarage"
           />
           <div className="carousel-caption d-none d-md-block">
@@ -43,7 +43,7 @@ function SlideShow() {
         <div className="carousel-item">
           <img
             src="https://images.pexels.com/photos/32771335/pexels-photo-32771335.jpeg"
-            className="d-block w-100"
+            className="d-block w-100 carousel-img"
             alt="AstonMartin"
           />
           <div className="carousel-caption d-none d-md-block">
@@ -57,7 +57,7 @@ function SlideShow() {
         <div className="carousel-item">
           <img
             src="https://images.pexels.com/photos/6873174/pexels-photo-6873174.jpeg"
-            className="d-block w-100"
+            className="d-block w-100 carousel-img"
             alt="Porshe"
           />
           <div className="carousel-caption d-none d-md-block">

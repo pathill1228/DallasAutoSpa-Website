@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.css";
+import "../Styles/SlideShow.css";
 
 function SlideShow() {
   return (

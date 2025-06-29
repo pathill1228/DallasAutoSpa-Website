@@ -28,24 +28,36 @@ function SlideShow() {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src="https://cdn.pixabay.com/photo/2023/04/13/07/48/multi-storey-car-park-7921955_1280.jpg"
+            src="https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg"
             className="d-block w-100"
             alt="CarInParkingGarage"
           />
+          <h5>Vinyl Wraps</h5>
+          <p>Full or partial color changes with Avery Denison and 3m Vinyl.</p>
         </div>
         <div className="carousel-item">
           <img
-            src="https://cdn.pixabay.com/photo/2017/03/05/15/29/aston-martin-2118857_1280.jpg"
+            src="https://images.pexels.com/photos/32726165/pexels-photo-32726165.jpeg"
             className="d-block w-100"
             alt="AstonMartin"
           />
+          <h5>Ceramic Tints</h5>
+          <p>
+            Heat-rejecting ceramic window tint for added style, privacy, and UV
+            protection.
+          </p>
         </div>
         <div className="carousel-item">
           <img
-            src="https://cdn.pixabay.com/photo/2016/11/22/23/44/porsche-1851246_1280.jpg"
+            src="https://images.pexels.com/photos/6873088/pexels-photo-6873088.jpeg"
             className="d-block w-100"
             alt="Porshe"
           />
+          <h5>Car Detailing</h5>
+          <p>
+            Interior and exterior deep cleans using high-end products for a
+            showroom-quality finish.
+          </p>
         </div>
       </div>
       <button

@@ -34,10 +34,18 @@ function SlideShow() {
           />
         </div>
         <div className="carousel-item">
-          <img src="..." className="d-block w-100" alt="..." />
+          <img
+            src="https://cdn.pixabay.com/photo/2016/08/31/22/34/auto-1634815_1280.jpg"
+            className="d-block w-100"
+            alt="RearLight"
+          />
         </div>
         <div className="carousel-item">
-          <img src="..." className="d-block w-100" alt="..." />
+          <img
+            src="https://cdn.pixabay.com/photo/2016/11/22/23/44/porsche-1851246_1280.jpg"
+            className="d-block w-100"
+            alt="Porshe"
+          />
         </div>
       </div>
       <button

@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-bg-dark p-3">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand">
-          <img src="/DASLogo.png" alt="Dallas Auto Spa Logo" height="75" />
+          <img src="/DASLogo.png" alt="Dallas Auto Spa Logo" height="55" />
         </Link>
         <button
           className="navbar-toggler"

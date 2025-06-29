@@ -4,7 +4,7 @@ import "../Styles/Welcome.css";
 function Welcome() {
   return (
     <div className="centered-container">
-      <h1>DALLAS AUTO SPA</h1>
+      <h2>DALLAS AUTO SPA</h2>
     </div>
   );
 }

@@ -28,7 +28,7 @@ function SlideShow() {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src="https://images.pexels.com/photos/8937660/pexels-photo-8937660.jpeg"
+            src="https://images.pexels.com/photos/10162529/pexels-photo-10162529.jpeg"
             className="d-block w-100"
             alt="CarInParkingGarage"
           />

@@ -3,7 +3,7 @@ import "../Styles/Welcome.css";
 
 function Welcome() {
   return (
-    <div className="centered-container text-bg-black p-3">
+    <div className="centered-container">
       <h1>Dallas Auto Spa</h1>
     </div>
   );

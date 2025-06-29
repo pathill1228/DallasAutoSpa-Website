@@ -35,9 +35,9 @@ function SlideShow() {
         </div>
         <div className="carousel-item">
           <img
-            src="https://cdn.pixabay.com/photo/2016/08/31/22/34/auto-1634815_1280.jpg"
+            src="https://cdn.pixabay.com/photo/2017/03/05/15/29/aston-martin-2118857_1280.jpg"
             className="d-block w-100"
-            alt="RearLight"
+            alt="AstonMartin"
           />
         </div>
         <div className="carousel-item">

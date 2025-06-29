@@ -56,7 +56,7 @@ function SlideShow() {
         </div>
         <div className="carousel-item">
           <img
-            src="https://images.pexels.com/photos/6873174/pexels-photo-6873174.jpeg"
+            src="https://images.pexels.com/photos/6872591/pexels-photo-6872591.jpeg"
             className="d-block w-100 carousel-img"
             alt="Porshe"
           />

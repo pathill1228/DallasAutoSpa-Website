@@ -1,38 +1,9 @@
 import "bootstrap/dist/css/bootstrap.css";
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
-import "../Styles/Navbar.css";
 
 function NavBar() {
-  const [show, setShow] = useState(true);
-  const [lastScrollY, setLastScrollY] = useState(0);
-
-  const handleScroll = () => {
-    const currentScrollY = window.scrollY;
-
-    if (currentScrollY > lastScrollY && currentScrollY > 80) {
-      // scrolling down
-      setShow(false);
-    } else {
-      // scrolling up
-      setShow(true);
-    }
-
-    setLastScrollY(currentScrollY);
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [lastScrollY]);
-
   return (
-    <nav
-      className={`navbar navbar-expand-lg navbar-bg-dark p-3 fixed-top ${
-        show ? "navbar-visible" : "navbar-hidden"
-      }`}
-    >
+    <nav className="navbar navbar-expand-lg navbar-bg-dark p-3">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand">
           <img src="/DASLogo.png" alt="Dallas Auto Spa Logo" height="55" />

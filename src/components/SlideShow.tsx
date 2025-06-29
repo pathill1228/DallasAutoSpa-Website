@@ -28,36 +28,44 @@ function SlideShow() {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src="https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg"
+            src="https://images.pexels.com/photos/8937660/pexels-photo-8937660.jpeg"
             className="d-block w-100"
             alt="CarInParkingGarage"
           />
-          <h5>Vinyl Wraps</h5>
-          <p>Full or partial color changes with Avery Denison and 3m Vinyl.</p>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Vinyl Wraps</h5>
+            <p>
+              Full or partial color changes with Avery Denison and 3m Vinyl.
+            </p>
+          </div>
         </div>
         <div className="carousel-item">
           <img
-            src="https://images.pexels.com/photos/32726165/pexels-photo-32726165.jpeg"
+            src="https://images.pexels.com/photos/32771335/pexels-photo-32771335.jpeg"
             className="d-block w-100"
             alt="AstonMartin"
           />
-          <h5>Ceramic Tints</h5>
-          <p>
-            Heat-rejecting ceramic window tint for added style, privacy, and UV
-            protection.
-          </p>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Ceramic Tints</h5>
+            <p>
+              Heat-rejecting ceramic window tint for added style, privacy, and
+              UV protection.
+            </p>
+          </div>
         </div>
         <div className="carousel-item">
           <img
-            src="https://images.pexels.com/photos/6873088/pexels-photo-6873088.jpeg"
+            src="https://images.pexels.com/photos/6873174/pexels-photo-6873174.jpeg"
             className="d-block w-100"
             alt="Porshe"
           />
-          <h5>Car Detailing</h5>
-          <p>
-            Interior and exterior deep cleans using high-end products for a
-            showroom-quality finish.
-          </p>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Car Detailing</h5>
+            <p>
+              Interior and exterior deep cleans using high-end products for a
+              showroom-quality finish.
+            </p>
+          </div>
         </div>
       </div>
       <button

@@ -42,7 +42,7 @@ function SlideShow() {
         </div>
         <div className="carousel-item">
           <img
-            src="https://images.pexels.com/photos/32771335/pexels-photo-32771335.jpeg"
+            src="https://images.pexels.com/photos/27703409/pexels-photo-27703409.jpeg"
             className="d-block w-100 carousel-img"
             alt="AstonMartin"
           />

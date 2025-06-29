@@ -1,0 +1,13 @@
+.navbar {
+    transition: transform 0.3s ease-in-out;
+    z-index: 999;
+  }
+  
+  .navbar-visible {
+    transform: translateY(0);
+  }
+  
+  .navbar-hidden {
+    transform: translateY(-100%);
+  }
+  

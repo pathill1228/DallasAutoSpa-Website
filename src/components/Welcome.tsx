@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 function Welcome() {
   return (
     <div className="centered-container">
-      <h2 className="mb-3">DALLAS AUTO SPA</h2>
-      <h5 className="mb-4">
+      <h2 className="centered-container">DALLAS AUTO SPA</h2>
+      <h5 className="centered-container">
         Welcome to Dallas Auto Spa. From Vinyl Wraps to Ceramic Coatings, We
         Elivate Your Vehicle's Look and Preserve Its Value.
       </h5>

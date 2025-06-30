@@ -5,3 +5,11 @@
     height: 50vh;            /* full screen height */
   }
   
+  .centered-container h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .centered-container h5 {
+    margin-bottom: 2rem;
+  }
+  
